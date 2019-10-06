@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@elastic/react-search-ui": "^1.2.0",
+    "@elastic/search-ui": "^1.2.0",
+    "@elastic/search-ui-app-search-connector": "^1.2.0",
+    "@elastic/site-search-node": "^1.0.1",
+    "eslint-config-react-app": "^5.0.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
@@ -27,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.18.2",
+    "typescript": "^3.6.3"
   }
 }
